@@ -1,0 +1,17 @@
+## This file is for application configuration that applies only to local, developer machines.
+## It isn't added to the production jar.
+
+## Produce human-readable logs.
+logging.config: classpath:logback-local.xml
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost/gatekeeper
+    username: gatekeeper
+    password: Pa55word!
+
+services:
+  available:
+    core-ruby:
+      url: https://app-uk.dev.babylontech.co.uk

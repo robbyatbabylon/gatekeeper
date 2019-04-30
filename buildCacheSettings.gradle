@@ -1,0 +1,18 @@
+def cacheArtifactoryCreds = { HttpBuildCacheCredentials creds ->
+    creds.username = System.getenv("ARTIFACTORY_USER") ?: artifactoryUsername
+    creds.password = System.getenv("ARTIFACTORY_PWD") ?: artifactoryPassword
+}
+
+ext.isCi = System.env.CI != null
+ext.remoteCache = 'https://artifactory.ops.babylontech.co.uk/artifactory/ai-cache-gradle/'
+
+buildCache {
+  local {
+    enabled = !isCi
+  }
+  remote(HttpBuildCache) {
+    url = remoteCache
+    credentials cacheArtifactoryCreds
+    push = isCi
+  }
+}

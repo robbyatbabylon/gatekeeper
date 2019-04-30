@@ -1,0 +1,9 @@
+logging.level:
+  org.springframework.security: INFO
+
+spring.zipkin.service.name: ${systemEnvironment['SERVICE_NAME']:bams-template-java-springwebmvc}
+
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+    default-property-inclusion: non_null

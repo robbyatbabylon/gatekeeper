@@ -1,0 +1,3 @@
+rootProject.name = 'bams-template-java-springwebmvc'
+
+apply from: 'buildCacheSettings.gradle'

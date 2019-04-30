@@ -1,0 +1,30 @@
+def artifactoryCreds = { PasswordCredentials creds ->
+    creds.username = System.getenv("ARTIFACTORY_USER") ?: artifactoryUsername
+    creds.password = System.getenv("ARTIFACTORY_PWD") ?: artifactoryPassword
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        name "artifactoryReleases"
+        url 'https://artifactory.ops.babylontech.co.uk/artifactory/babylon-maven-releases'
+        credentials artifactoryCreds
+    }
+    maven {
+        name "artifactorySnapshots"
+        url 'https://artifactory.ops.babylontech.co.uk/artifactory/babylon-maven-snapshots'
+        credentials artifactoryCreds
+    }
+    maven {
+        name "artifactoryRemoteRepos"
+        url 'https://artifactory.ops.babylontech.co.uk/artifactory/remote-repos'
+        credentials artifactoryCreds
+    }
+}
+
+ext.allRepos = repositories
+ext.publishSnapshotRepos = repositories.matching {it.name.endsWith("Snapshots")}
+ext.publishReleaseRepos = repositories.matching {it.name.endsWith("Releases")}
+ext.getPublishRepos = {
+    (version.endsWith('-SNAPSHOT')) ? publishSnapshotRepos : publishReleaseRepos
+}

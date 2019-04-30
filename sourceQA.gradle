@@ -1,0 +1,28 @@
+// Linting
+
+tasks.withType(FindBugs) {
+  reports {
+    xml.enabled false
+    html.enabled true
+  }
+}
+tasks.withType(JDepend) {
+  reports {
+    xml.enabled true
+    text.enabled false
+  }
+}
+checkstyle {
+  ignoreFailures false
+  showViolations true
+  maxWarnings 0
+  toolVersion '8.17'
+  tasks.withType(Checkstyle) {
+    reports {
+      xml.enabled true
+      html.enabled true
+    }
+  }
+}
+
+verifyGoogleJavaFormat.dependsOn tasks.googleJavaFormat
