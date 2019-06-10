@@ -1,4 +1,4 @@
-package com.babylonhealth.gatekeeper.service.zipCode;
+package com.babylonhealth.gatekeeper.service.zipcode;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -31,7 +31,8 @@ public class ZipCodeService {
   }
 
   public List<ZipCode> getZipCodes(ZipCodeFilter zipCodeFilter) {
-    return sponsors.stream()
+    return sponsors
+        .stream()
         .filter(
             s ->
                 !zipCodeFilter.getSponsorCode().isPresent()
@@ -49,7 +50,8 @@ public class ZipCodeService {
   }
 
   public List<ZipCode> getAllZipCodes(String sponsorCode) {
-    return this.sponsors.stream()
+    return this.sponsors
+        .stream()
         .filter(s -> s.getSponsorCode().equalsIgnoreCase(sponsorCode))
         .findFirst()
         .map(Sponsors::getZipCodes)
@@ -57,7 +59,8 @@ public class ZipCodeService {
   }
 
   public List<ZipCode> getAllZipCodes() {
-    return this.sponsors.stream()
+    return this.sponsors
+        .stream()
         .flatMap(s -> s.getZipCodes().stream())
         .collect(Collectors.toList());
   }
@@ -73,7 +76,8 @@ public class ZipCodeService {
   }
 
   public Boolean isZipCodeInList(String zipCode) {
-    return this.sponsors.stream()
+    return this.sponsors
+        .stream()
         .flatMap(s -> s.getZipCodes().stream())
         .collect(Collectors.toList())
         .stream()
@@ -84,7 +88,10 @@ public class ZipCodeService {
     Optional<Sponsors> sponsor = getSponsor(sponsorCode);
 
     if (sponsor.isPresent()) {
-      return sponsor.get().getZipCodes().stream()
+      return sponsor
+          .get()
+          .getZipCodes()
+          .stream()
           .filter(z -> z.getState().equalsIgnoreCase(state))
           .collect(Collectors.toList());
     } else {
@@ -93,7 +100,8 @@ public class ZipCodeService {
   }
 
   public List<ZipCode> getZipCodesForState(String state) {
-    return this.sponsors.stream()
+    return this.sponsors
+        .stream()
         .flatMap(s -> s.getZipCodes().stream())
         .collect(Collectors.toList())
         .stream()
@@ -102,7 +110,8 @@ public class ZipCodeService {
   }
 
   private Optional<Sponsors> getSponsor(String sponsorCode) {
-    return this.sponsors.stream()
+    return this.sponsors
+        .stream()
         .filter(s -> s.getSponsorCode().equalsIgnoreCase(sponsorCode))
         .findFirst();
   }

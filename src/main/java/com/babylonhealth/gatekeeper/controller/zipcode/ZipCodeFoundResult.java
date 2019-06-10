@@ -1,4 +1,4 @@
-package com.babylonhealth.gatekeeper.controller.zipCode;
+package com.babylonhealth.gatekeeper.controller.zipcode;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Value;

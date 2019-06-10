@@ -1,4 +1,4 @@
-package com.babylonhealth.gatekeeper.service.zipCode;
+package com.babylonhealth.gatekeeper.service.zipcode;
 
 import io.swagger.annotations.ApiModelProperty;
 import java.util.Optional;
@@ -6,14 +6,11 @@ import lombok.Data;
 
 @Data
 public class ZipCodeFilter {
-  @ApiModelProperty
-  private String sponsorCode;
+  @ApiModelProperty private String sponsorCode;
 
-  @ApiModelProperty
-  private String zipCode;
+  @ApiModelProperty private String zipCode;
 
-  @ApiModelProperty
-  private String state;
+  @ApiModelProperty private String state;
 
   public Optional<String> getSponsorCode() {
     return Optional.ofNullable(sponsorCode);

@@ -2,10 +2,10 @@ package com.babylonhealth.gatekeeper.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.babylonhealth.gatekeeper.service.zipCode.Sponsors;
-import com.babylonhealth.gatekeeper.service.zipCode.ZipCode;
-import com.babylonhealth.gatekeeper.service.zipCode.ZipCodeFilter;
-import com.babylonhealth.gatekeeper.service.zipCode.ZipCodeService;
+import com.babylonhealth.gatekeeper.service.zipcode.Sponsors;
+import com.babylonhealth.gatekeeper.service.zipcode.ZipCode;
+import com.babylonhealth.gatekeeper.service.zipcode.ZipCodeFilter;
+import com.babylonhealth.gatekeeper.service.zipcode.ZipCodeService;
 import com.google.common.collect.Lists;
 import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
@@ -149,9 +149,7 @@ public class ZipCodeServiceTest {
     String zipCode = "fLoRiDa";
 
     List<ZipCode> validZipCodes =
-            Lists.newArrayList(
-                    new ZipCode("Florida", "32043"),
-                    new ZipCode("Florida", "32202"));
+        Lists.newArrayList(new ZipCode("Florida", "32043"), new ZipCode("Florida", "32202"));
 
     assertThat(zipCodeService.getZipCodesForState(sponsor, zipCode)).isEqualTo(validZipCodes);
   }
@@ -161,7 +159,8 @@ public class ZipCodeServiceTest {
     String sponsor = "sponsor_c";
     String zipCode = "fLoRiDa";
 
-    assertThat(zipCodeService.getZipCodesForState(sponsor, zipCode)).isEqualTo(Lists.newArrayList());
+    assertThat(zipCodeService.getZipCodesForState(sponsor, zipCode))
+        .isEqualTo(Lists.newArrayList());
   }
 
   @Test
@@ -169,6 +168,7 @@ public class ZipCodeServiceTest {
     String sponsor = "sponsor_b";
     String zipCode = "New York";
 
-    assertThat(zipCodeService.getZipCodesForState(sponsor, zipCode)).isEqualTo(Lists.newArrayList());
+    assertThat(zipCodeService.getZipCodesForState(sponsor, zipCode))
+        .isEqualTo(Lists.newArrayList());
   }
 }

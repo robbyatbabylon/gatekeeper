@@ -16,12 +16,9 @@ import lombok.NoArgsConstructor;
 @Entity
 public class Zipcodes {
 
-  @Id
-  private int id;
+  @Id private int id;
 
-  @Column
-  private UUID consumerNetworkUuid;
+  @Column private UUID consumerNetworkUuid;
 
-  @Column
-  private String zipcode;
+  @Column private String zipcode;
 }

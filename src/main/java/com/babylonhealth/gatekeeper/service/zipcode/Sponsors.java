@@ -1,4 +1,4 @@
-package com.babylonhealth.gatekeeper.service.zipCode;
+package com.babylonhealth.gatekeeper.service.zipcode;
 
 import java.util.List;
 import lombok.AllArgsConstructor;

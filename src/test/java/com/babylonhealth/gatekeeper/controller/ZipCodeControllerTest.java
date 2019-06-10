@@ -8,10 +8,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.babylonhealth.bamsspring.security.kong.KongSecurityAutoConfiguration;
 import com.babylonhealth.bamsspring.security.kong.web.KongWebSecurityAutoConfiguration;
-import com.babylonhealth.gatekeeper.controller.zipCode.ZipCodeController;
-import com.babylonhealth.gatekeeper.service.zipCode.ZipCode;
-import com.babylonhealth.gatekeeper.service.zipCode.ZipCodeFilter;
-import com.babylonhealth.gatekeeper.service.zipCode.ZipCodeService;
+import com.babylonhealth.gatekeeper.controller.zipcode.ZipCodeController;
+import com.babylonhealth.gatekeeper.service.zipcode.ZipCode;
+import com.babylonhealth.gatekeeper.service.zipcode.ZipCodeFilter;
+import com.babylonhealth.gatekeeper.service.zipcode.ZipCodeService;
 import com.google.common.collect.Lists;
 import java.nio.charset.Charset;
 import java.util.List;
@@ -50,14 +50,14 @@ class ZipCodeControllerTest {
     String sponsor = "SPONSOR";
     String state = "michigan";
 
-    String body = String.format("{ \"sponsor_code\": \"%s\", \"state\": \"%s\" }", sponsor, state);
-
     ZipCodeFilter zipCodeFilter = new ZipCodeFilter();
     zipCodeFilter.setSponsorCode(sponsor);
     zipCodeFilter.setState(state);
 
     String expectedRes =
         StreamUtils.copyToString(responseAllZips.getInputStream(), Charset.defaultCharset());
+
+    String body = String.format("{ \"sponsor_code\": \"%s\", \"state\": \"%s\" }", sponsor, state);
 
     given(zipCodeService.getZipCodes(zipCodeFilter)).willReturn(buildZipCodes());
 
@@ -107,7 +107,7 @@ class ZipCodeControllerTest {
     given(zipCodeService.isZipCodeInList(sponsor, zipCode)).willReturn(true);
 
     this.mockMvc
-        .perform(get(String.format("/v1/zipCodes/sponsorCode/%s/zipCode/%s", sponsor, zipCode)))
+        .perform(get(String.format("/v1/zipCodes/sponsorCode/%s/zipcode/%s", sponsor, zipCode)))
         .andDo(print())
         .andExpect(status().isOk())
         .andExpect(content().json("{ \"passed\": true }", true));
@@ -120,7 +120,7 @@ class ZipCodeControllerTest {
     given(zipCodeService.isZipCodeInList(zipCode)).willReturn(true);
 
     this.mockMvc
-        .perform(get(String.format("/v1/zipCodes/zipCode/%s", zipCode)))
+        .perform(get(String.format("/v1/zipCodes/zipcode/%s", zipCode)))
         .andDo(print())
         .andExpect(status().isOk())
         .andExpect(content().json("{ \"passed\": true }", true));

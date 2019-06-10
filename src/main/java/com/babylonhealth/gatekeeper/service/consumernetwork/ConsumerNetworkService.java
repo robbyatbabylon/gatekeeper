@@ -1,4 +1,4 @@
-package com.babylonhealth.gatekeeper.service.consumerNetwork;
+package com.babylonhealth.gatekeeper.service.consumernetwork;
 
 import com.babylonhealth.gatekeeper.security.UserIdProvider;
 import java.util.UUID;
@@ -29,6 +29,8 @@ public class ConsumerNetworkService {
   }
 
   private UUID getUserID() {
-    return userIdProvider.getUserId().orElseThrow(() -> new AccessDeniedException("Must be authenticated"));
+    return userIdProvider
+        .getUserId()
+        .orElseThrow(() -> new AccessDeniedException("Must be authenticated"));
   }
 }

@@ -1,8 +1,8 @@
-package com.babylonhealth.gatekeeper.controller.zipCode;
+package com.babylonhealth.gatekeeper.controller.zipcode;
 
-import com.babylonhealth.gatekeeper.service.zipCode.ZipCode;
-import com.babylonhealth.gatekeeper.service.zipCode.ZipCodeFilter;
-import com.babylonhealth.gatekeeper.service.zipCode.ZipCodeService;
+import com.babylonhealth.gatekeeper.service.zipcode.ZipCode;
+import com.babylonhealth.gatekeeper.service.zipcode.ZipCodeFilter;
+import com.babylonhealth.gatekeeper.service.zipcode.ZipCodeService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import java.util.List;
@@ -23,7 +23,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class ZipCodeController {
   private final ZipCodeService zipcodeService;
 
-  @ApiOperation(value = "Smart ZipCode filter based on JSON object passed in.", response = ZipCode.class, responseContainer = "List", httpMethod = "GET")
+  @ApiOperation(
+      value = "Smart ZipCode filter based on JSON object passed in.",
+      response = ZipCode.class,
+      responseContainer = "List",
+      httpMethod = "GET")
   @GetMapping
   @ResponseStatus(HttpStatus.OK)
   @RequestMapping("v1/zipCodes")
@@ -31,7 +35,11 @@ public class ZipCodeController {
     return zipcodeService.getZipCodes(zipCodeFilter);
   }
 
-  @ApiOperation(value = "Get all ZipCodes for all Sponsors", response = ZipCode.class, responseContainer = "List", httpMethod = "GET")
+  @ApiOperation(
+      value = "Get all ZipCodes for all Sponsors",
+      response = ZipCode.class,
+      responseContainer = "List",
+      httpMethod = "GET")
   @GetMapping
   @ResponseStatus(HttpStatus.OK)
   @RequestMapping("v1/zipCodes/all")
@@ -39,7 +47,11 @@ public class ZipCodeController {
     return zipcodeService.getAllZipCodes();
   }
 
-  @ApiOperation(value = "Get all ZipCodes for a specific Sponsor", response = ZipCode.class, responseContainer = "List", httpMethod = "GET")
+  @ApiOperation(
+      value = "Get all ZipCodes for a specific Sponsor",
+      response = ZipCode.class,
+      responseContainer = "List",
+      httpMethod = "GET")
   @GetMapping
   @ResponseStatus(HttpStatus.OK)
   @RequestMapping("v1/zipCodes/sponsorCode/{sponsorCode}/all")
@@ -47,24 +59,34 @@ public class ZipCodeController {
     return zipcodeService.getAllZipCodes(sponsorCode);
   }
 
-  @ApiOperation(value = "Check to see if a specific ZipCode is in a specific Sponsor", response = ZipCodeFoundResult.class, httpMethod = "GET")
+  @ApiOperation(
+      value = "Check to see if a specific ZipCode is in a specific Sponsor",
+      response = ZipCodeFoundResult.class,
+      httpMethod = "GET")
   @GetMapping
   @ResponseStatus(HttpStatus.OK)
-  @RequestMapping("v1/zipCodes/sponsorCode/{sponsorCode}/zipCode/{zipCode}")
+  @RequestMapping("v1/zipCodes/sponsorCode/{sponsorCode}/zipcode/{zipCode}")
   private ZipCodeFoundResult isZipCodeAvailable(
       @PathVariable("sponsorCode") String sponsorCode, @PathVariable("zipCode") String zipCode) {
     return new ZipCodeFoundResult(zipcodeService.isZipCodeInList(sponsorCode, zipCode));
   }
 
-  @ApiOperation(value = "Check to see if a specific ZipCode is in any Sponsor", response = ZipCodeFoundResult.class, httpMethod = "GET")
+  @ApiOperation(
+      value = "Check to see if a specific ZipCode is in any Sponsor",
+      response = ZipCodeFoundResult.class,
+      httpMethod = "GET")
   @GetMapping
   @ResponseStatus(HttpStatus.OK)
-  @RequestMapping("v1/zipCodes/zipCode/{zipCode}")
+  @RequestMapping("v1/zipCodes/zipcode/{zipCode}")
   private ZipCodeFoundResult isZipCodeAvailable(@PathVariable("zipCode") String zipCode) {
     return new ZipCodeFoundResult(zipcodeService.isZipCodeInList(zipCode));
   }
 
-  @ApiOperation(value = "Get all ZipCodes for a specific State for a specific Sponsor", response = ZipCode.class, responseContainer = "List", httpMethod = "GET")
+  @ApiOperation(
+      value = "Get all ZipCodes for a specific State for a specific Sponsor",
+      response = ZipCode.class,
+      responseContainer = "List",
+      httpMethod = "GET")
   @GetMapping
   @ResponseStatus(HttpStatus.OK)
   @RequestMapping("v1/zipCodes/sponsorCode/{sponsorCode}/state/{state}")
@@ -73,7 +95,11 @@ public class ZipCodeController {
     return zipcodeService.getZipCodesForState(sponsorCode, state);
   }
 
-  @ApiOperation(value = "Get all ZipCodes for a specific State for any Sponsor", response = ZipCode.class, responseContainer = "List", httpMethod = "GET")
+  @ApiOperation(
+      value = "Get all ZipCodes for a specific State for any Sponsor",
+      response = ZipCode.class,
+      responseContainer = "List",
+      httpMethod = "GET")
   @GetMapping
   @ResponseStatus(HttpStatus.OK)
   @RequestMapping("v1/zipCodes/state/{state}")

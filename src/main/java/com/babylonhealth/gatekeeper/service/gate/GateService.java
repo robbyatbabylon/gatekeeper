@@ -5,8 +5,8 @@ import com.babylonhealth.gatekeeper.data.entity.GateValidations;
 import com.babylonhealth.gatekeeper.data.repository.GateRepository;
 import com.babylonhealth.gatekeeper.data.repository.GateValidationsRepository;
 import com.babylonhealth.gatekeeper.security.UserIdProvider;
-import com.babylonhealth.gatekeeper.service.consumerNetwork.ConsumerNetwork;
-import com.babylonhealth.gatekeeper.service.consumerNetwork.ConsumerNetworkService;
+import com.babylonhealth.gatekeeper.service.consumernetwork.ConsumerNetwork;
+import com.babylonhealth.gatekeeper.service.consumernetwork.ConsumerNetworkService;
 import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
@@ -38,9 +38,9 @@ public class GateService {
     UUID userId = getUserID();
 
     List<UUID> consumerNetworkUuids =
-            Arrays.stream(consumerNetworkService.fetchConsumerNetworks())
-                    .map(ConsumerNetwork::getUuid)
-                    .collect(Collectors.toList());
+        Arrays.stream(consumerNetworkService.fetchConsumerNetworks())
+            .map(ConsumerNetwork::getUuid)
+            .collect(Collectors.toList());
 
     return gateRepository.findUnvalidatedGates(userId, consumerNetworkUuids);
   }

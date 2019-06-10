@@ -1,0 +1,2167 @@
+[
+    {
+      "sponsorCode": "SPONSOR_A",
+      "zipCodes": [
+      {
+        "zipCode": 32009,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32011,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32043,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32063,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32065,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32068,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32073,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32202,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32204,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32205,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32206,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32207,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32208,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32209,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32210,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32211,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32212,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32216,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32217,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32218,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32219,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32220,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32221,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32222,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32224,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32225,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32226,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32234,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32244,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32246,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32254,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32256,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32257,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32277,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32413,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32433,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32435,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32439,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32455,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32456,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32459,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32465,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32501,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32502,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32503,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32504,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32505,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32506,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32507,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32508,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32509,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32511,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32512,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32514,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32526,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32533,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32534,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32535,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32541,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32550,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32561,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32563,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32565,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32566,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32568,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32570,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32571,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32577,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32578,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 32583,
+        "state": "Florida"
+      },
+      {
+        "zipCode": 48001,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48002,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48003,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48004,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48005,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48006,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48009,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48014,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48015,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48017,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48021,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48022,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48023,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48025,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48026,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48027,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48028,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48030,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48032,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48034,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48035,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48036,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48038,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48039,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48040,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48041,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48042,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48043,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48044,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48045,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48047,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48048,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48049,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48050,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48051,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48054,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48059,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48060,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48061,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48062,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48063,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48064,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48065,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48066,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48067,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48069,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48070,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48071,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48072,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48073,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48074,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48075,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48076,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48079,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48080,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48081,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48082,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48083,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48084,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48085,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48088,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48089,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48091,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48092,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48093,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48094,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48095,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48096,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48097,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48098,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48101,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48111,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48112,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48114,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48116,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48120,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48122,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48124,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48125,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48126,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48127,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48128,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48134,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48135,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48137,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48138,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48139,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48141,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48143,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48146,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48150,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48152,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48154,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48164,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48165,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48167,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48168,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48169,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48170,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48173,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48174,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48175,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48178,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48180,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48183,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48184,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48185,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48186,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48187,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48188,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48189,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48192,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48193,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48195,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48201,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48202,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48203,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48204,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48205,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48206,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48207,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48208,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48209,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48210,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48211,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48212,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48213,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48214,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48215,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48216,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48217,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48218,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48219,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48220,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48221,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48223,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48224,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48225,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48226,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48227,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48228,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48229,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48230,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48234,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48235,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48236,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48237,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48238,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48239,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48240,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48242,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48301,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48302,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48304,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48306,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48307,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48309,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48310,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48312,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48313,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48314,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48315,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48316,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48317,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48320,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48322,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48323,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48324,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48326,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48327,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48328,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48329,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48331,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48334,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48335,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48336,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48340,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48341,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48342,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48346,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48348,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48350,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48353,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48356,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48357,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48359,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48360,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48362,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48363,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48367,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48370,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48371,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48374,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48375,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48377,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48380,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48381,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48382,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48383,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48386,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48390,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48393,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48415,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48416,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48417,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48420,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48423,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48428,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48430,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48433,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48439,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48442,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48444,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48446,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48451,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48457,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48458,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48460,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48462,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48473,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48502,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48503,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48504,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48505,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48506,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48507,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48509,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48519,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48529,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48532,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48601,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48602,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48603,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48604,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48607,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48609,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48610,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48613,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48616,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48623,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48624,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48626,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48631,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48634,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48637,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48638,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48649,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48650,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48652,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48655,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48658,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48659,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48661,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48703,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48706,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48708,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48710,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48722,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48723,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48726,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48730,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48734,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48737,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48739,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48744,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48746,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48747,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48748,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48749,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48750,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48756,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48757,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48763,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48765,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48766,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48768,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48770,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48816,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48836,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48843,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48844,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 48855,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49001,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49002,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49003,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49004,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49005,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49006,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49007,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49008,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49009,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49012,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49019,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49024,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49034,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49035,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49040,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49041,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49046,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49048,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49052,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49053,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49055,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49060,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49062,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49066,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49070,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49071,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49072,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49074,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49077,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49078,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49079,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49080,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49081,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49083,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49088,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49097,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49311,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49335,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49344,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49348,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 49707,
+        "state": "Michigan"
+      },
+      {
+        "zipCode": 76524,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76527,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76530,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76537,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76557,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76574,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76578,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76624,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76630,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76633,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76638,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76640,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76643,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76655,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76657,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76664,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76682,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76689,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76691,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76701,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76704,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76705,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76706,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76707,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76708,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76710,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76711,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76712,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76831,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 76885,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 77853,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78122,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78140,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78159,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78602,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78605,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78606,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78607,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78608,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78609,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78610,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78611,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78612,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78613,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78614,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78615,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78616,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78617,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78619,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78620,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78621,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78626,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78628,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78629,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78632,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78633,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78634,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78635,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78636,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78639,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78640,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78641,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78642,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78643,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78644,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78645,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78648,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78650,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78652,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78653,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78654,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78655,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78656,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78657,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78659,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78660,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78661,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78662,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78663,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78664,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78665,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78666,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78669,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78672,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78676,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78677,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78681,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78701,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78702,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78703,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78704,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78705,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78712,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78717,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78719,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78721,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78722,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78723,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78724,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78725,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78726,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78727,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78728,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78729,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78730,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78731,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78732,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78733,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78734,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78735,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78736,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78737,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78738,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78739,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78741,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78742,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78744,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78745,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78746,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78747,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78748,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78749,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78750,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78751,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78752,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78753,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78754,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78756,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78757,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78758,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78759,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78932,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78938,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78940,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78941,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78942,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78945,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78946,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78947,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78948,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78949,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78953,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78954,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78956,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78957,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78959,
+        "state": "Texas"
+      },
+      {
+        "zipCode": 78963,
+        "state": "Texas"
+      }
+    ]
+    }
+]

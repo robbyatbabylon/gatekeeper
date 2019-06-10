@@ -2,8 +2,8 @@ package com.babylonhealth.gatekeeper.controller.gates;
 
 import com.babylonhealth.gatekeeper.data.entity.Gate;
 import com.babylonhealth.gatekeeper.data.entity.GateValidations;
-import com.babylonhealth.gatekeeper.service.consumerNetwork.ConsumerNetwork;
-import com.babylonhealth.gatekeeper.service.consumerNetwork.ConsumerNetworkService;
+import com.babylonhealth.gatekeeper.service.consumernetwork.ConsumerNetwork;
+import com.babylonhealth.gatekeeper.service.consumernetwork.ConsumerNetworkService;
 import com.babylonhealth.gatekeeper.service.gate.GateService;
 import io.swagger.annotations.ApiOperation;
 import java.util.List;

@@ -35,6 +35,7 @@ public interface GateRepository extends CrudRepository<Gate, UUID> {
               + "\t\t\t(user_id <> ?1 OR user_id IS NULL)\n"
               + "\t\t\tOR\n"
               + "\t\t\t(user_id = ?1 AND validated = FALSE)\n"
-              + "\t\t)", nativeQuery = true)
+              + "\t\t)",
+      nativeQuery = true)
   List<Gate> findUnvalidatedGates(UUID userId, List<UUID> consumerNetworkId);
 }

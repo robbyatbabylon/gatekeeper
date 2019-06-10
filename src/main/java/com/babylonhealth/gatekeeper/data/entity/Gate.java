@@ -21,14 +21,14 @@ import lombok.NoArgsConstructor;
 @Entity
 public class Gate {
 
-  public enum feature {
+  public enum Feature {
     registration,
     chatbot,
     healthcheck,
     appointments
   }
 
-  public enum gateType {
+  public enum GateType {
     zip,
     idv,
     privacy,
@@ -41,11 +41,11 @@ public class Gate {
 
   @Column
   @Enumerated(EnumType.STRING)
-  private feature featureGated;
+  private Feature featureGated;
 
   @Column
   @Enumerated(EnumType.STRING)
-  private gateType gateType;
+  private GateType gateType;
 
   @OneToMany(mappedBy = "gate")
   @JsonIgnoreProperties("gate")

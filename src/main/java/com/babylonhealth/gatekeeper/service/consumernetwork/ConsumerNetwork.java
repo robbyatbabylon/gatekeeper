@@ -1,4 +1,4 @@
-package com.babylonhealth.gatekeeper.service.consumerNetwork;
+package com.babylonhealth.gatekeeper.service.consumernetwork;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.UUID;
