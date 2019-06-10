@@ -1,0 +1,114 @@
+version: 2
+
+prelude: &prelude
+  working_directory: ~/babylon
+  docker:
+    - image: circleci/openjdk:8-jdk
+
+use_docker: &use_docker setup_remote_docker
+
+quay_login: &quay_login
+  run: docker login -u "${DOCKER_USER}" -p "${DOCKER_PASS}" quay.io
+
+only_master: &only_master
+  filters:
+    branches:
+      only:
+        - master
+
+not_master: &not_master
+  filters:
+    branches:
+      ignore:
+        - master
+
+only_semver_tags: &only_semver_tags
+  filters:
+    branches:
+      ignore: /.*/
+    tags:
+      # A valid semver tag (e.g. 1.0.0)
+      only: /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/
+
+restore_gradle: &restore_gradle
+  restore_cache:
+    keys:
+      - gradle-cache-{{ .Branch }}-{{ checksum "build.gradle" }}
+      - gradle-cache-{{ .Branch }}
+      - gradle-cache-
+
+save_gradle: &save_gradle
+  save_cache:
+    key: gradle-cache-{{ .Branch }}-{{ checksum "build.gradle" }}
+    paths:
+      - ~/.gradle/caches
+      - ~/babylon/.gradle
+
+jobs:
+  build_java:
+    <<: *prelude
+    steps:
+      - checkout
+      - *restore_gradle
+      - run: ./gradlew build
+      - *save_gradle
+      - run:
+          name: Save test results
+          command: |
+            mkdir -p ~/junit/
+            find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} ~/junit/ \;
+          when: always
+      - store_test_results:
+          path: ~/junit
+      - store_artifacts:
+          path: ~/junit
+      - store_artifacts:
+          path: build/reports
+      - persist_to_workspace:
+          root: .
+          paths:
+            - build/libs
+
+  build_and_publish_docker:
+    <<: *prelude
+    steps:
+      - checkout
+      - *use_docker
+      - attach_workspace:
+          at: .
+      - *quay_login
+      - run: make docker push
+  deploy_dev:
+    <<: *prelude
+    steps:
+      - checkout
+      - *use_docker
+      - *quay_login
+      - run: make deploy-dev
+  deploy_staging:
+    <<: *prelude
+    steps:
+      - checkout
+      - *use_docker
+      - *quay_login
+      - run: make deploy-staging
+
+workflows:
+  version: 2
+  deploy-pipeline:
+    jobs:
+      - build_java:
+          context: babylon
+      - build_and_publish_docker:
+          context: babylon
+          requires:
+            - build_java
+          <<: *only_master
+      - deploy_dev:
+          context: babylon
+          requires:
+            - build_and_publish_docker
+          <<: *only_master
+      - deploy_staging:
+          context: babylon
+          <<: *only_semver_tags

@@ -1,7 +1,14 @@
+app.path.prefix: ${APP_PATH_PREFIX:}
+
+bams.api.springfox:
+  # Path the service is hosted at (e.g., the Kong path prefix)
+  basePath: ${PATH_PREFIX:/}
+  title: "Gatekeeper"
+
 logging.level:
   org.springframework.security: INFO
 
-spring.zipkin.service.name: ${systemEnvironment['SERVICE_NAME']:bams-template-java-springwebmvc}
+spring.zipkin.service.name: ${systemEnvironment['SERVICE_NAME']:gatekeeper}
 
 spring:
   jackson:

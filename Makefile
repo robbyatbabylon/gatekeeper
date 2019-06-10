@@ -1,4 +1,4 @@
-NAME=bams-template-java-springwebmvc
+NAME=gatekeeper
 VERSION=$(shell git rev-parse HEAD)
 SEMVER_VERSION=$(shell git describe --abbrev=0 --tags 2> /dev/null || echo 'NO TAG WITH SEMVER FOUND')
 REPO=quay.io/babylonhealth
